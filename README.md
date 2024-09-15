@@ -11,6 +11,13 @@ Once the transformer architecture is defined, the training process involves feed
 Another critical aspect of developing custom GPT-like models is managing the fine-tuning process, including tweaking hyperparameters like learning rate and batch size, as well as implementing techniques such as gradient clipping or learning rate scheduling to improve performance. Developers also need to continuously evaluate the model’s outputs against validation datasets to ensure it produces relevant and coherent text. This iterative process ensures that the model can handle real-world applications while staying within the computational limitations that smaller, customized models typically face.
 
 #
+### Unlike AI
+
+GPT-like Python programs are not considered simple AI. They belong to a class of advanced, deep learning models known as transformer-based architectures. These models are designed to handle complex natural language tasks such as text generation, translation, and summarization. Unlike simple AI systems, which might follow predefined rules or basic machine learning algorithms, GPT models learn from vast amounts of text data, capturing intricate patterns and relationships in language. They require extensive training on high-performance hardware and leverage multiple layers of neural networks to achieve their ability to generate human-like responses.
+
+Additionally, GPT-like models incorporate sophisticated mechanisms such as self-attention, which allows them to weigh the importance of different words in a sequence. This enables the model to understand context in a way that goes beyond simple AI models, which may struggle with tasks requiring nuanced understanding. While the concept of a language model might seem straightforward, the implementation and functioning of GPT-based systems involve complex mathematical operations and massive data processing, making them far more advanced than simple AI systems.
+
+#
 ### GPT-like Python Structure
 
 A GPT-like Python program consists of several key components that work together to generate human-like text. It starts by tokenizing the input text, breaking it down into smaller pieces or tokens. These tokens are then transformed into vectors using an embedding layer, followed by adding positional encodings to retain the order of words. The core of the model is the transformer block, which repeats several layers. Each transformer block uses self-attention mechanisms to capture relationships between words, followed by a feed-forward network for additional processing. Residual connections and layer normalization ensure efficient training and stability.
