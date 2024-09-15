@@ -18,7 +18,7 @@ GPT-like Python programs are not considered simple AI. They belong to a class of
 Additionally, GPT-like models incorporate sophisticated mechanisms such as self-attention, which allows them to weigh the importance of different words in a sequence. This enables the model to understand context in a way that goes beyond simple AI models, which may struggle with tasks requiring nuanced understanding. While the concept of a language model might seem straightforward, the implementation and functioning of GPT-based systems involve complex mathematical operations and massive data processing, making them far more advanced than simple AI systems.
 
 #
-### GPT-like Python Structure
+### GPT-Like Python Structure
 
 A GPT-like Python program consists of several key components that work together to generate human-like text. It starts by tokenizing the input text, breaking it down into smaller pieces or tokens. These tokens are then transformed into vectors using an embedding layer, followed by adding positional encodings to retain the order of words. The core of the model is the transformer block, which repeats several layers. Each transformer block uses self-attention mechanisms to capture relationships between words, followed by a feed-forward network for additional processing. Residual connections and layer normalization ensure efficient training and stability.
 
