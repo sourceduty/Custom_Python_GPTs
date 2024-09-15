@@ -1,4 +1,4 @@
-![Python GPT](https://github.com/user-attachments/assets/4c29ce29-259f-4d25-b1c2-f51759c97277)
+![Python GPT](https://github.com/user-attachments/assets/5a423732-b99f-4cdf-8cba-010c35c6d626)
 
 > Custom generative pre-trained transformers (GPT) models using Python.
 
